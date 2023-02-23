@@ -1,2 +1,2 @@
-# cmd-helper
+# CMD Helper
 CMD command helper
