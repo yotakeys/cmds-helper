@@ -1,6 +1,6 @@
 {
-    "git" : [
+    "gitCommit" : [
         "git,add,.",
-        "git,commit,-m,feat: add json read"
+        "git,commit,-m,%1"
     ]
 }
