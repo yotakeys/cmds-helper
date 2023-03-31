@@ -3,11 +3,12 @@ import json
 import sys
 import subprocess as sp
 
-class Cmds:
+class CmdsHelper:
     
     list_command = dict()
     
-    def __init__(self):
+    def __init__(self):   
+        
         self.list_command = dict()
         self.readAllCmd()
     
@@ -29,11 +30,11 @@ class Cmds:
                         new_read =  json.load(json_file)
                         self.list_command.update(new_read) 
                         
-    def runCmd(self, cmd:list):
-        command = sys.argv[1]
+    def run(self, cmd:list):
+        command = cmd[0]
         if command in self.list_command:
-            if len(sys.argv) > 2:
-                cmds = self.changeParams(sys.argv[2:], self.list_command[command])
+            if len(cmd) > 1:
+                cmds = self.changeParams(cmd[1:], self.list_command[command])
                 
             for cmd in cmds:
                 cmd_split = cmd.split(",")
