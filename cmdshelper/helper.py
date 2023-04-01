@@ -1,9 +1,8 @@
 import os
 import json
-import sys
 import subprocess as sp
 
-class CmdsHelper:
+class Helper:
     
     list_command = dict()
     

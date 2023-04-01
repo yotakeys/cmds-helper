@@ -1,13 +1,13 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,visualstudiocode,python
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,visualstudiocode,python
 
-test.py
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
+test.py
 # C extensions
 *.so
 
