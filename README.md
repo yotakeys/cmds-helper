@@ -2,6 +2,14 @@
 
 This modul will help us to automate CLI Command we usually use in projects.
 
+### Installation
+
+Using pip :
+
+```pip
+pip install cmds-helper
+```
+
 ### How To Use
 
 - Install cmds-helper module using `pip`
