@@ -7,6 +7,7 @@ name = "cmds-helper"
 version = "0.0.1"
 authors = [
   { name="Keyisa Raihan", email="keyisakris@gmail.com" },
+  { name="Yoel Mountanus Sitorus", email="sclous2012@gmail.com" }
 ]
 description = "CLI CMD Command helper"
 readme = "README.md"
