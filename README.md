@@ -123,6 +123,20 @@ pip install cmds-helper
     python -m cmdshelper gitACP "feat: add something"
     ```
 
+  - Simply just cdmshelper
+
+    It is just as simple as you open the folder that you want to run the command
+
+    ```
+    cmdshelper [command] [args_1] [args_2] ... [args_3]
+    ```
+
+    for example:
+
+    ```
+    cmdshelper gitACP "feat: add something"
+    ```
+
 - Full code in `run.py ` will be :
 
   ```py
