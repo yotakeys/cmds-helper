@@ -72,7 +72,7 @@ pip install cmds-helper
 
   You can see another command examples in `example_cmd.json`
 
-- There are 2 ways to run this `file`, by CLI with passing `arg` or by hardcode the command in `script`
+- There are 3 ways to run this `file`, by CLI with passing `arg`, by hardcode the command in `script`, or by using `python -m`
 
   - CLI Passing argument :
 
@@ -108,6 +108,20 @@ pip install cmds-helper
       ```
 
       to run it, you just need to run `run.py` file
+
+  - Straight from Python module
+
+    It is just as simple as you open the folder that you want to run the command
+
+    ```
+    python -m cmdshelper [command] [args_1] [args_2] ... [args_3]
+    ```
+
+    for example:
+
+    ```
+    python -m cmdshelper gitACP "feat: add something"
+    ```
 
 - Full code in `run.py ` will be :
 
