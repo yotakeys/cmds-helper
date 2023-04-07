@@ -72,7 +72,7 @@ pip install cmds-helper
 
   You can see another command examples in `example_cmd.json`
 
-- There are 3 ways to run this `file`, by CLI with passing `arg`, by hardcode the command in `script`, or by using `python -m`
+- There are 4 ways to run this `file`, by CLI with passing `arg`, by hardcode the command in `script`, or by using `python -m`
 
   - CLI Passing argument :
 
