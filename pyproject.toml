@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "cmds-helper"
-version = "0.0.1"
+version = "0.1.1"
 authors = [
   { name = "Keyisa Raihan", email = "keyisakris@gmail.com" },
   { name = "Yoel Mountanus Sitorus", email = "sclous2012@gmail.com" },
